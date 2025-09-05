@@ -1,0 +1,13 @@
+[project]
+name = "youtube-mcp"
+version = "0.1.0"
+description = "Servidor MCP para análisis de comentarios de YouTube"
+requires-python = ">=3.10"
+
+dependencies = [
+    "requests",
+    "textblob"
+]
+
+[tool.uv]
+dev-dependencies = []
